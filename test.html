@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0" >
+	<title>Document</title>
+	<style>
+		#div1 {width: 200px;
+			height: 200px;
+			background: red}
+	</style>
+	<script>
+		window.onload = function ()
+		{
+			var oDiv = document.getElementById('div1')
+			oDiv.addEventListener('touchstart',function(){
+				console.log(1)
+			})
+		}
+	</script>
+</head>
+<body>
+	<div id="div1"></div>
+</body>
+</html>
